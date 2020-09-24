@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style type="text/css">
+            .andres, .brandon, .elie, .reyna {
+                float: left;
+                width: 25%;
+            }
+
+            .audrey, .will {
+                float:left;
+                width: 50%;
+            }
+
+            .mentor, .team, .sponsors {
+                text-align: center;
+            }
+
+            p {
+                margin: 0;
+                padding: 0px;
+            }
+
+            /* clear floats after the columns */
+            .team:after{
+                content: "";
+                display: table;
+                clear:both;
+            }
+
+            @media screen and (max-width: 600px) {
+                .andres, .brandon, .elie, .reyna {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="team">
+            <h1>Our Team</h1>
+
+            <div class="andres">
+                <img src="Images/andres.jpeg" alt="Andres Sepulveda">
+                <h2>Andres Sepulveda</h2>
+                <p>Team Lead</p>
+                <p>Client Communicator</p>
+                <p>Coder</p>
+            </div>
+
+            <div class="brandon">
+                <img src="Images/brandon.jpeg" alt="Brandon Visoky">
+                <h2>Brandon Visoky</h2>
+                <p>Release Manager</p>
+                <p>Quality Assurance</p>
+                <p>Coder</p>
+            </div>
+
+            <div class="elie">
+                <img src="Images/elie.jpeg" alt="Eleanor 'Elie' Carlos">
+                <h2>Eleanor "Elie" Carlos</h2>
+                <p>Recorder</p>
+                <p>Quality Assurance</p>
+                <p>Coder</p>
+            </div>
+
+            <div class="reyna">
+                <img src="Images/reyna.jpeg" alt="Reyna Orendain">
+                <h2>Reyna Orendain</h2>
+                <p>Architect</p>
+                <p>Web Development Lead</p>
+                <p>Coder</p>
+            </div>
+            
+        </div>
+
+        <hr>
+
+        <div class="mentor">
+            <h1>Our Mentor</h1>
+            <img src="Images/shiva.jpeg" alt="Sambashiva Reddy Kethireddy">
+            <h2>Sambashiva Reddy Kethireddy</h2>
+            <p>M.S. Computer Science</p>
+            <p>Northern Arizona University</p>
+        </div>
+
+        <hr>
+        
+        <div class="sponsors">
+            <h1>Our Sponsors</h1>
+            <div class="lowell-logo">
+                <img src="Images/lowell-logo.png" alt="Lowell Observatory Logo">
+            </div>
+            <div class="audrey">
+                <img src="Images/audrey.jpeg" alt="Dr. Audrey Thirouin">
+                <h2>Dr. Audrey Thirouin</h2>
+                <p>Research Scientist</p>
+            </div>
+            <div class="will">
+                <img src="Images/will.jpeg" alt="Dr. Will Grundy">
+                <h2>Dr. Will Grundy</h2>
+                <p>Astronomer</p>
+            </div>
+        </div>
+            
+    </body>
+
+    <footer>
+
+    </footer>
+
+</html>
